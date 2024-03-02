@@ -1,0 +1,18 @@
+package hkmu.comps380f;
+
+import java.io.Serializable;
+
+public class VisitCounter implements Serializable {
+    int count = 0;
+
+    public VisitCounter() {
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+}
